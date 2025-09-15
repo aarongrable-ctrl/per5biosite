@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a:link {
+  color: #f6f5f2;
+	background-color: #8f8e7f;
+	padding: 10px 15px;
+	margin: 5px 10px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #f6f5f2;
+	background-color: #8f8e7f;
+	padding: 10px 15px;
+	margin: 5px 10px;
+	border-radius: 10px;
+}
+
+/* mouse over link */
+a:hover {
+  color: #fff;
+	background-image: url("waterripple.gif");
+		padding: 10px 15px;
+	margin: 5px 10px;
+	border-radius: 10px;
+}
+
+/* selected link */
+a:active {
+  color: #8f8e7f;
+	background-color: #f6f5f2;
+		padding: 10px 15px;
+	margin: 5px 10px;
+	border-radius: 10px;
+}
+
+body {
+	background-color:#f6f5f2; 
+	color:#1d3215;
+}
+
+#headerdiv {
+  background-color: #1d3215;            /* fallback color */
+  background-image: url('bannerbg.jpeg');
+  background-size: cover;               /* fill the header */
+  background-position: center;          /* keep subject centered */
+  font-size: 50px;
+  text-align: center;
+  color: #f6f5f2;
+  padding: 25px;
+}
+#navdiv {
+	text-align: center;
+	background-color: #487531;
+	color: #f6f5f2;
+	padding: 15px;
+}
+#grablediv {
+	padding: 15px;
+}
+#footer {
+	text-align: center; 
+	background-color: #487531; 
+	color: #f6f5f2; 
+	padding: 15px; 
+	font-size: 12px;
+}
+.threecolumns {
+	width: 30%;
+	padding: 15px;
+	float: left;
+	background-color: #ddd;
+	margin: 5px;
+	border-style: solid;
+}
+.threecolumns:hover {
+	box-shadow: 0px 0px 5px 5px #cccccc;
+	transform: translateY(-5px);
+}
+
+
+
+
+
+
+
+
